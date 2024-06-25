@@ -33,7 +33,7 @@
 }
 
 body{
-    background-color: var(--dark1);
+    background-color: #050938;
     height: 100vh;
     font-family: 'lato';
 }
@@ -45,7 +45,7 @@ header{
     gap: 1rem;
     flex-wrap: wrap;
     padding: .8rem;
-    background-color: var(--dark6);
+    background-color:#040848;
     min-height: 50px;
 }
 
@@ -54,9 +54,10 @@ header{
 }
 
 .img-logo{
-    max-width: 60px;
+    max-width: 100px;
     height: 100%;
 }
+
 
 nav{
     display: flex;
@@ -77,35 +78,6 @@ nav{
     text-decoration: underline;
 }
 
-.box-btn-actions{
-    display: flex;
-    gap: 1rem;
-}
-
-button,.link-action{
-    padding: .6rem;
-    font-size: .9rem;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: .4s;
-}
-
-.btn-action{
-    background-color: transparent;
-    border: 1px solid var(--white);
-    color: var(--white);
-}
-
-.btn-action:hover{
-    background-color: var(--dark3);
-    border: 1px solid var(--dark3);
-}
-
-.link-action{
-    text-decoration: none;
-    width: 200px;
-    text-align: center;
-}
 
 main{
     display: flex;
@@ -153,12 +125,12 @@ strong{
 }
 
 .img-profile{
-    border-radius: 50%;
+    border-radius: 20px;
     width: 100%;
 }
 
 :is(.second-section, .fourth-section){
-    background-color: var(--dark2);
+    background-color: #040848;
     display: flex;
     flex-direction: column;
     align-items: center;
